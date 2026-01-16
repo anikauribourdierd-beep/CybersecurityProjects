@@ -21,10 +21,10 @@ The goal of this lab is to simulate a basic penetration test in a controlled env
 - Isolated from untrusted networks.   (give an explanation on why is isolated)
 
 **Tools Used:**
-- Nmap 
-- Metasploit
-- Telnet (optional)
-- Burp Suite (optional)
+- **Nmap:** This command is a network scanning tool. The purpose is to identify open ports and identify which are exposed.  This command was used to map the attack surface of the machine and identify which ports were not insecure.
+- **Metasploit:** This is an open-source penetration testing framework used to develop, test, and run exploits against vulnerable systems. It helps security professionals validate and automate the exploitation of identified weakness.
+- **Telnet:** This is a remote access protocol that allows user to connect to a system over a network. This was used on this lab to demonstrate exploitation by logging in with default credential and gain remote access to the target machine 
+- **Burp Suite:** Is a security testing tool used to intercept and analyze http traffic. The purpose of this was to inspect and test the web services running on the target system.
 
 ---
 
