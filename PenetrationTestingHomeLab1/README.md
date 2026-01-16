@@ -117,11 +117,11 @@ All screenshots are stored in the `/screenshots` folder.
 
 ---
 
-## Challenges Faced and How I Overcame Them 
-** VirtualBox network configuration issues**
+## ⛰️ Challenges Faced and How I Overcame Them 
+**VirtualBox network configuration issues**
 The Kali and Metasploitable machines initially could not communicate due to incorrect adapter settings. This was resolved by properly configuring NAT for internet access and a Host only adapter for the lab network, then verifying connectivity using ip addr, ip route, and ping.
 
-** Confusion between IP addresses and network interfaces**
+**Confusion between IP addresses and network interfaces**
 Multiple IP ranges caused uncertainty about which address to scan. I overcame this by identifying the correct interface and IP using ip link and confirming the target IP through successful ping tests.
 
 **Nmap scans hanging or returning limited results**
@@ -133,7 +133,7 @@ The FTP backdoor exploit did not trigger despite the vulnerable version being id
 **Script and package errors in Kali**
 Issues with Nmap scripts and package updates occurred due to repository and connectivity problems. These were resolved by fixing network access and confirming internet connectivity before retrying updates.
 
-** Virtual machine usability issues (mouse/pointer not working)**
+**Virtual machine usability issues (mouse/pointer not working)**
 The Metasploitable virtual machine had persistent mouse and pointer issues that prevented proper interaction. After researching solutions through online resources such as technical articles and community forums, the issue was partially addressed. Ultimately, switching to a laptop and reinstalling both virtual machines from scratch resolved the problem and allowed Metasploitable to function correctly.
 
 **Understanding when to stop scanning and move forward**
